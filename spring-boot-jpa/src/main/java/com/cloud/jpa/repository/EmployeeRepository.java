@@ -1,6 +1,6 @@
-package com.thoughtworks.springbootemployee.repository;
+package com.cloud.jpa.repository;
 
-import com.thoughtworks.springbootemployee.model.Employee;
+import com.jpa.jpa.model.Employee;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

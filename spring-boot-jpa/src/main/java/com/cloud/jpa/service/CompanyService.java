@@ -1,13 +1,15 @@
-package com.thoughtworks.springbootemployee.service;
+package com.cloud.jpa.service;
 
-import com.thoughtworks.springbootemployee.model.Company;
-import com.thoughtworks.springbootemployee.model.Employee;
-import com.thoughtworks.springbootemployee.repository.CompanyRepository;
+import com.cloud.jpa.model.Company;
+import com.cloud.jpa.model.Employee;
+import com.cloud.repository.CompanyRepository;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 @Service
 public class CompanyService {
@@ -47,5 +49,10 @@ public class CompanyService {
     public List<Employee> getEmployees(Integer companyId) {
         return null;
 //        return companyRepository.find(companyId).orElse(null);
+    }
+
+    public static void main(String[] args) {
+        List<String> str = new ArrayList<>();
+        IntStream.of(123).boxed().forEach((x) -> System.out.println());
     }
 }

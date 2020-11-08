@@ -1,8 +1,8 @@
 package com.cloud.jpa.controller;
 
-import com.thoughtworks.springbootemployee.model.Company;
-import com.thoughtworks.springbootemployee.model.Employee;
-import com.thoughtworks.springbootemployee.service.CompanyService;
+import com.cloud.jpa.model.Company;
+import com.cloud.jpa.model.Employee;
+import com.cloud.jpa.service.CompanyService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

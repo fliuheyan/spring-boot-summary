@@ -1,7 +1,7 @@
-package com.thoughtworks.springbootemployee.service;
+package com.cloud.jpa.service;
 
-import com.thoughtworks.springbootemployee.model.Employee;
-import com.thoughtworks.springbootemployee.repository.EmployeeRepository;
+import com.cloud.jpa.model.Employee;
+import com.cloud.jpa.repository.EmployeeRepository;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

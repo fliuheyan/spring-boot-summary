@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55e2a9df-390f-4718-b7e8-279c06c19108" name="Default Changelist" comment="" />
+    <list default="true" id="55e2a9df-390f-4718-b7e8-279c06c19108" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/src/main/java/com/cloud/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/src/main/resources/applicatiton.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iws" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/repository/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/repository/CompanyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/service/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-summary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-summary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-summary.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-summary.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-summary.iws" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-summary.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-summary.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-summary.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-summary.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-summary.test.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +113,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
@@ -102,6 +139,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -112,7 +150,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-mybatis" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -120,10 +158,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-mybatis" />
+      <recent name="$PROJECT_DIR$/spring-boot-elasticsearch" />
+      <recent name="$PROJECT_DIR$/spring-boot-actuator" />
+      <recent name="$PROJECT_DIR$/spring-boot-kafka" />
       <recent name="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/cloud/jpa/controller" />
-      <recent name="$PROJECT_DIR$/spring-boot-jpa/src/main/resources/db/migration" />
-      <recent name="$PROJECT_DIR$/spring-boot-jpa/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spring-boot-jpa/src/test/resources" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -198,6 +237,10 @@
       <workItem from="1602684075150" duration="390000" />
       <workItem from="1602684497935" duration="994000" />
       <workItem from="1603201439985" duration="2571000" />
+      <workItem from="1603206652582" duration="2049000" />
+      <workItem from="1603960921296" duration="34000" />
+      <workItem from="1604424729110" duration="9000" />
+      <workItem from="1604538597310" duration="783000" />
     </task>
     <servers />
   </component>
@@ -222,6 +265,10 @@
     </state>
     <state x="341" y="133" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1602684632623" />
     <state x="341" y="134" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1603203238267" />
+    <state x="541" y="253" width="598" height="486" key="find.popup" timestamp="1603960952947">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="541" y="253" width="598" height="486" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1603960952947" />
     <state x="221" y="174" key="new project wizard" timestamp="1602684539346">
       <screen x="0" y="23" width="1680" height="947" />
     </state>

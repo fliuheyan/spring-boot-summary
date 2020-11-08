@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+group 'com.cloud.leetcode'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    archivesBaseName = 'app'
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+dependencies {
+    annotationProcessor 'org.projectlombok:lombok:1.18.8'
+    compileOnly 'org.projectlombok:lombok:1.18.8'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.3.1.RELEASE'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '2.3.1.RELEASE'
+    implementation group: 'org.springframework.session', name: 'spring-session-data-redis', version: '2.3.1.RELEASE'
+
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.3.1.RELEASE'
+}
