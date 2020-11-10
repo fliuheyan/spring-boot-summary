@@ -1,4 +1,4 @@
-package com.thoughtworks.springbootemployee;
+package com.cloud;
 
 import org.flywaydb.core.Flyway;
 import org.springframework.boot.SpringApplication;

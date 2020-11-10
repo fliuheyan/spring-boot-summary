@@ -1,1 +1,7 @@
 ./gradle
+*/.gradle
+*.iws
+*.iml
+*.ipr
+*/build
+./build

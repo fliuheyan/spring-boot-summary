@@ -19,7 +19,7 @@ import javax.persistence.SequenceGenerator;
 public class Employee {
     @Id
     @GeneratedValue(strategy= GenerationType.SEQUENCE, generator = "employee_generator")
-    @SequenceGenerator(name = "employee_generator")
+    @SequenceGenerator(name = "employee_generator", allocationSize = 1)
     private Integer id;
     private String name;
     private Integer age;

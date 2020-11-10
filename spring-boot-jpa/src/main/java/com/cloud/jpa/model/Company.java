@@ -24,7 +24,7 @@ import java.util.List;
 public class Company {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "company_generator")
-    @SequenceGenerator(name = "company_generator")
+    @SequenceGenerator(name = "company_generator", allocationSize = 1)
     private Integer id;
     private String companyName;
     @OneToMany(
