@@ -2,39 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7d6ac14-f4b6-4c60-8c0b-42de1a901845" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot-redis/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot-redis/spring-boot-redis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot-redis/spring-boot-redis.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot-redis/spring-boot-redis.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot-redis/spring-boot-redis.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot-redis/src/main/java/com/cloud/redis/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot-redis/src/main/resources/applicatiton.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-jpa.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-jpa.iws" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/controller/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/model/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/model/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/repository/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/repository/CompanyRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/repository/EmployeeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/service/CompanyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/jpa/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-summary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-summary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-summary.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-summary.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-summary.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-summary.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-summary.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-summary.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-summary.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-summary.test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +185,13 @@
         <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
+    <configuration name="SpringBootEmployeeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-jpa.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtworks.springbootemployee.SpringBootEmployeeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -220,6 +205,7 @@
       <updated>1603205869196</updated>
       <workItem from="1603205870294" duration="255000" />
       <workItem from="1604368707568" duration="5011000" />
+      <workItem from="1604996468336" duration="553000" />
     </task>
     <servers />
   </component>
@@ -235,13 +221,17 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.947@0.23.1680.947" timestamp="1604390750544" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1604391895421">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1604996940838">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.947@0.23.1680.947" timestamp="1604391895421" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.947@0.23.1680.947" timestamp="1604996940838" />
     <state x="176" y="54" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604392154870">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="176" y="54" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.947@0.23.1680.947" timestamp="1604392154870" />
+    <state x="505" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1604996541917">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="505" y="230" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1604996541917" />
   </component>
 </project>

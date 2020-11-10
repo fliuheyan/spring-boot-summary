@@ -2,14 +2,11 @@ package com.cloud.jpa.service;
 
 import com.cloud.jpa.model.Company;
 import com.cloud.jpa.model.Employee;
-import com.cloud.repository.CompanyRepository;
+import com.cloud.jpa.repository.CompanyRepository;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.IntStream;
 
 @Service
 public class CompanyService {
@@ -24,9 +21,7 @@ public class CompanyService {
     }
 
     public List<Company> getAll(Integer page, Integer pageSize) {
-        Pageable pageable = PageRequest.of(page, pageSize);
-        return companyRepository.retrieveAllPageable(pageable);
-//        return companyRepository.findAll(page, pageSize);
+        return companyRepository.findAll(PageRequest.of(page, pageSize)).toList();
     }
 
     public Company get(Integer companyId) {
@@ -47,12 +42,6 @@ public class CompanyService {
     }
 
     public List<Employee> getEmployees(Integer companyId) {
-        return null;
-//        return companyRepository.find(companyId).orElse(null);
-    }
-
-    public static void main(String[] args) {
-        List<String> str = new ArrayList<>();
-        IntStream.of(123).boxed().forEach((x) -> System.out.println());
+        return companyRepository.findById(companyId).map(Company::getEmployees).orElse(null);
     }
 }

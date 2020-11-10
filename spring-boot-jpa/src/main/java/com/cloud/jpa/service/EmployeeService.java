@@ -3,7 +3,6 @@ package com.cloud.jpa.service;
 import com.cloud.jpa.model.Employee;
 import com.cloud.jpa.repository.EmployeeRepository;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -21,8 +20,7 @@ public class EmployeeService {
     }
 
     public List<Employee> getAll(Integer page, Integer pageSize) {
-        Pageable pageable = PageRequest.of(page, pageSize);
-        return employeeRepository.retrieveAllPageable(pageable);
+        return employeeRepository.findAll(PageRequest.of(page, pageSize)).toList();
     }
 
     public Employee get(Integer employeeId) {
