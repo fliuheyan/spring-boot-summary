@@ -17,7 +17,7 @@ jar {
 
 dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
-    compileOnly 'org.projectlombok:lombok:1.18.8'
+    implementation 'org.projectlombok:lombok:1.18.8'
     implementation 'org.springframework.boot:spring-boot-starter-web:2.3.1.RELEASE'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '2.3.1.RELEASE'
     implementation group: 'org.springframework.session', name: 'spring-session-data-redis', version: '2.3.1.RELEASE'

@@ -11,21 +11,31 @@ import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSeriali
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import javax.annotation.Resource;
-import java.io.Serializable;
 import java.lang.reflect.Method;
 
 
 @Configuration
 @EnableCaching
-public class RedisConfig extends CachingConfigurerSupport{
+public class RedisConfig<T> extends CachingConfigurerSupport{
     @Resource
     private LettuceConnectionFactory redisConnectionFactory;
 
-    @Bean
-    public RedisTemplate<String, Serializable> redisTemplate() {
-        RedisTemplate<String, Serializable> redisTemplate = new RedisTemplate<>();
+    @Bean("myRedisTemplate")
+    public RedisTemplate<String, Object> redisTemplate() {
+        RedisTemplate<String, Object> redisTemplate = new RedisTemplate<>();
         redisTemplate.setKeySerializer(new StringRedisSerializer());
         redisTemplate.setValueSerializer(new GenericJackson2JsonRedisSerializer());
+        System.out.println("redisConnectionFactory " + redisConnectionFactory);
+        redisTemplate.setConnectionFactory(redisConnectionFactory);
+        return redisTemplate;
+    }
+
+    @Bean("redisTemplateWrapper")
+    public RedisTemplate<String, T> redisTemplateWrapper() {
+        RedisTemplate<String, T> redisTemplate = new RedisTemplate<>();
+        redisTemplate.setKeySerializer(new StringRedisSerializer());
+        redisTemplate.setValueSerializer(new GenericJackson2JsonRedisSerializer());
+        System.out.println("redisConnectionFactory " + redisConnectionFactory);
         redisTemplate.setConnectionFactory(redisConnectionFactory);
         return redisTemplate;
     }

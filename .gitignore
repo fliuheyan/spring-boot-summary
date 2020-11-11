@@ -3,5 +3,8 @@
 *.iws
 *.iml
 *.ipr
+*/*.iml
+*/*.ipr
+*/*.iws
 */build
 ./build
